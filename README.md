@@ -1,1 +1,1 @@
-# Gift-Backend-API
+# Gift-Genie-Backend-API
