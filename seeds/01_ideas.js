@@ -9,29 +9,32 @@ exports.seed = function(knex, Promise){
           id: 1,
           idea: "Flowers",
           occasion: "Valentines Day",
+          gender: "Female",
           "min-age": 10,
           "max-age": 100,
           "min-relationship-length": 0,
           "max-relationship-length": 100,
-          gender: "Female"
+          "relationship-type": "Any"
         },{
           id: 2,
           idea: "Chocolate",
           occasion: "Valentines Day",
+          gender: "Female",
           "min-age": 10,
           "max-age": 100,
           "min-relationship-length": 0,
           "max-relationship-length": 50,
-          gender: "Female"
+          "relationship-type": "Any"
         },{
           id: 3,
           idea: "Chocolate Covered Strawberries",
           occasion: "Valentines Day",
+          gender: "Female",
           "min-age": 12,
           "max-age": 100,
           "min-relationship-length": 0,
           "max-relationship-length": 50,
-          gender: "Female"
+          "relationship-type": "Any"
         },
       ])
     })
