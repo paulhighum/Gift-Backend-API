@@ -4,11 +4,11 @@ exports.up = function(knex, Promise){
     table.text("idea")
     table.text("occasion")
     table.text("gender")
-    table.integer("min-age")
-    table.integer("max-age")
-    table.integer("min-relationship-length")
-    table.integer("max-relationship-length")
-    table.text("relationship-type")
+    table.integer("minAge")
+    table.integer("maxAge")
+    table.integer("minRelationshipLength")
+    table.integer("maxRelationshipLength")
+    table.text("relationshipType")
   })
 }
 
