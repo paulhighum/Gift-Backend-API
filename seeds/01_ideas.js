@@ -68,7 +68,7 @@ exports.seed = function(knex, Promise){
         },{
           id: 7,
           idea: "Brunch On You",
-          occasion: "Any",
+          occasion: "Mother's Day",
           gender: "Any",
           "minAge": 20,
           "maxAge": 100,
@@ -101,6 +101,76 @@ exports.seed = function(knex, Promise){
           occasion: "Easter",
           gender: "Any",
           "minAge": 2,
+          "maxAge": 100,
+          "minRelationshipLength": 1,
+          "maxRelationshipLength": 50,
+          "relationshipType": "Any"
+        },{
+          id: 11,
+          idea: "Theater Tickets",
+          occasion: "Any",
+          gender: "Any",
+          "minAge": 1,
+          "maxAge": 100,
+          "minRelationshipLength": 1,
+          "maxRelationshipLength": 50,
+          "relationshipType": "Son"
+        },{
+          id: 12,
+          idea: "Theater Tickets",
+          occasion: "Any",
+          gender: "Any",
+          "minAge": 1,
+          "maxAge": 100,
+          "minRelationshipLength": 1,
+          "maxRelationshipLength": 50,
+          "relationshipType": "Daughter"
+        },{
+          id: 13,
+          idea: "Theater Tickets",
+          occasion: "Any",
+          gender: "Any",
+          "minAge": 16,
+          "maxAge": 100,
+          "minRelationshipLength": 1,
+          "maxRelationshipLength": 50,
+          "relationshipType": "Any"
+        },{
+          id: 14,
+          idea: "Jewelry",
+          occasion: "Any",
+          gender: "Female",
+          "minAge": 14,
+          "maxAge": 100,
+          "minRelationshipLength": 1,
+          "maxRelationshipLength": 50,
+          "relationshipType": "Romantic"
+        },{
+          id: 15,
+          idea: "Jewelry",
+          occasion: "Any",
+          gender: "Female",
+          "minAge": 14,
+          "maxAge": 100,
+          "minRelationshipLength": 1,
+          "maxRelationshipLength": 50,
+          "relationshipType": "Girlfriend"
+        },{
+          id: 16,
+          idea: "Flowers",
+          occasion: "Mother's Day",
+          gender: "Any",
+          "minAge": 20,
+          "maxAge": 100,
+          "minRelationshipLength": 1,
+          "maxRelationshipLength": 50,
+          "relationshipType": "Any"
+        },{
+          id: 17,
+          idea: "Chocolates",
+          occasion: "Mother's Day",
+          gender: "Any",
+          "minAge": 20,
           "maxAge": 100,
           "minRelationshipLength": 1,
           "maxRelationshipLength": 50,
