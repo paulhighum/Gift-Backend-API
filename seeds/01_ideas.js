@@ -175,7 +175,17 @@ exports.seed = function(knex, Promise){
           "minRelationshipLength": 1,
           "maxRelationshipLength": 50,
           "relationshipType": "Any"
-        }
+        },{
+          id: 18,
+          idea: "Jewelry",
+          occasion: "Any",
+          gender: "Female",
+          "minAge": 14,
+          "maxAge": 100,
+          "minRelationshipLength": 1,
+          "maxRelationshipLength": 50,
+          "relationshipType": "Wife"
+        },
       ])
     })
     .then(() => {
