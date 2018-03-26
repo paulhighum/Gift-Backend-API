@@ -35,7 +35,77 @@ exports.seed = function(knex, Promise){
           "minRelationshipLength": 0,
           "maxRelationshipLength": 50,
           "relationshipType": "Any"
-        },
+        },{
+          id: 4,
+          idea: "Sporting Event Tickets",
+          occasion: "Any",
+          gender: "Male",
+          "minAge": 8,
+          "maxAge": 100,
+          "minRelationshipLength": 1,
+          "maxRelationshipLength": 50,
+          "relationshipType": "Any"
+        },{
+          id: 5,
+          idea: "Action Figures",
+          occasion: "Any",
+          gender: "Male",
+          "minAge": 2,
+          "maxAge": 100,
+          "minRelationshipLength": 0,
+          "maxRelationshipLength": 50,
+          "relationshipType": "Any"
+        },{
+          id: 6,
+          idea: "Concert Tickets",
+          occasion: "Any",
+          gender: "Any",
+          "minAge": 8,
+          "maxAge": 100,
+          "minRelationshipLength": 1,
+          "maxRelationshipLength": 50,
+          "relationshipType": "Any"
+        },{
+          id: 7,
+          idea: "Brunch On You",
+          occasion: "Any",
+          gender: "Any",
+          "minAge": 20,
+          "maxAge": 100,
+          "minRelationshipLength": 1,
+          "maxRelationshipLength": 50,
+          "relationshipType": "Any"
+        },{
+          id: 8,
+          idea: "Flowers",
+          occasion: "Graduation",
+          gender: "Any",
+          "minAge": 12,
+          "maxAge": 100,
+          "minRelationshipLength": 1,
+          "maxRelationshipLength": 50,
+          "relationshipType": "Any"
+        },{
+          id: 9,
+          idea: "Gift Card To Favorite Eatery",
+          occasion: "Graduation",
+          gender: "Any",
+          "minAge": 14,
+          "maxAge": 100,
+          "minRelationshipLength": 1,
+          "maxRelationshipLength": 50,
+          "relationshipType": "Any"
+        },{
+          id: 10,
+          idea: "Bunny Themed Candy",
+          occasion: "Easter",
+          gender: "Any",
+          "minAge": 2,
+          "maxAge": 100,
+          "minRelationshipLength": 1,
+          "maxRelationshipLength": 50,
+          "relationshipType": "Any"
+        }
       ])
     })
     .then(() => {
