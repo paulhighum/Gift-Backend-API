@@ -185,7 +185,37 @@ exports.seed = function(knex, Promise){
           "minRelationshipLength": 1,
           "maxRelationshipLength": 50,
           "relationshipType": "Wife"
-        },
+        },{
+          id: 19,
+          idea: "Jewelry",
+          occasion: "Mother's Day",
+          gender: "Female",
+          "minAge": 20,
+          "maxAge": 100,
+          "minRelationshipLength": 1,
+          "maxRelationshipLength": 50,
+          "relationshipType": "Any"
+        },{
+          id: 20,
+          idea: "Attend A Yoga Class With Her",
+          occasion: "Mother's Day",
+          gender: "Female",
+          "minAge": 20,
+          "maxAge": 100,
+          "minRelationshipLength": 1,
+          "maxRelationshipLength": 50,
+          "relationshipType": "Any"
+        },{
+          id: 21,
+          idea: "Take A Hike With Her",
+          occasion: "Mother's Day",
+          gender: "Female",
+          "minAge": 20,
+          "maxAge": 100,
+          "minRelationshipLength": 1,
+          "maxRelationshipLength": 50,
+          "relationshipType": "Any"
+        }
       ])
     })
     .then(() => {
