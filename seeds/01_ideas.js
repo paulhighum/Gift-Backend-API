@@ -14,7 +14,8 @@ exports.seed = function(knex, Promise){
           "maxAge": 100,
           "minRelationshipLength": 0,
           "maxRelationshipLength": 100,
-          "relationshipType": "Any"
+          "relationshipType": "Any",
+          price: 1
         },{
           id: 2,
           idea: "Chocolate",
@@ -24,7 +25,8 @@ exports.seed = function(knex, Promise){
           "maxAge": 100,
           "minRelationshipLength": 0,
           "maxRelationshipLength": 50,
-          "relationshipType": "Any"
+          "relationshipType": "Any",
+          price: 1
         },{
           id: 3,
           idea: "Chocolate Covered Strawberries",
@@ -34,7 +36,8 @@ exports.seed = function(knex, Promise){
           "maxAge": 100,
           "minRelationshipLength": 0,
           "maxRelationshipLength": 50,
-          "relationshipType": "Any"
+          "relationshipType": "Any",
+          price: 2
         },{
           id: 4,
           idea: "Sporting Event Tickets",
@@ -44,7 +47,8 @@ exports.seed = function(knex, Promise){
           "maxAge": 100,
           "minRelationshipLength": 1,
           "maxRelationshipLength": 50,
-          "relationshipType": "Any"
+          "relationshipType": "Any",
+          price: 2,
         },{
           id: 5,
           idea: "Action Figures",
@@ -54,7 +58,8 @@ exports.seed = function(knex, Promise){
           "maxAge": 100,
           "minRelationshipLength": 0,
           "maxRelationshipLength": 50,
-          "relationshipType": "Any"
+          "relationshipType": "Any",
+          price: 1
         },{
           id: 6,
           idea: "Concert Tickets",
@@ -64,7 +69,8 @@ exports.seed = function(knex, Promise){
           "maxAge": 100,
           "minRelationshipLength": 1,
           "maxRelationshipLength": 50,
-          "relationshipType": "Any"
+          "relationshipType": "Any",
+          price: 3,
         },{
           id: 7,
           idea: "Brunch On You",
@@ -72,9 +78,10 @@ exports.seed = function(knex, Promise){
           gender: "Any",
           "minAge": 20,
           "maxAge": 100,
-          "minRelationshipLength": 1,
+          "minRelationshipLength": 0,
           "maxRelationshipLength": 50,
-          "relationshipType": "Any"
+          "relationshipType": "Any",
+          price: 2
         },{
           id: 8,
           idea: "Flowers",
@@ -82,9 +89,10 @@ exports.seed = function(knex, Promise){
           gender: "Any",
           "minAge": 12,
           "maxAge": 100,
-          "minRelationshipLength": 1,
+          "minRelationshipLength": 0,
           "maxRelationshipLength": 50,
-          "relationshipType": "Any"
+          "relationshipType": "Any",
+          price: 1
         },{
           id: 9,
           idea: "Gift Card To Favorite Eatery",
@@ -92,9 +100,10 @@ exports.seed = function(knex, Promise){
           gender: "Any",
           "minAge": 14,
           "maxAge": 100,
-          "minRelationshipLength": 1,
+          "minRelationshipLength": 0,
           "maxRelationshipLength": 50,
-          "relationshipType": "Any"
+          "relationshipType": "Any",
+          price: 1,
         },{
           id: 10,
           idea: "Bunny Themed Candy",
@@ -102,9 +111,10 @@ exports.seed = function(knex, Promise){
           gender: "Any",
           "minAge": 2,
           "maxAge": 100,
-          "minRelationshipLength": 1,
+          "minRelationshipLength": 0,
           "maxRelationshipLength": 50,
-          "relationshipType": "Any"
+          "relationshipType": "Any",
+          price: 1
         },{
           id: 11,
           idea: "Theater Tickets",
@@ -114,7 +124,8 @@ exports.seed = function(knex, Promise){
           "maxAge": 100,
           "minRelationshipLength": 1,
           "maxRelationshipLength": 50,
-          "relationshipType": "Son"
+          "relationshipType": "Son",
+          price: 3
         },{
           id: 12,
           idea: "Theater Tickets",
@@ -124,7 +135,8 @@ exports.seed = function(knex, Promise){
           "maxAge": 100,
           "minRelationshipLength": 1,
           "maxRelationshipLength": 50,
-          "relationshipType": "Daughter"
+          "relationshipType": "Daughter",
+          price: 3
         },{
           id: 13,
           idea: "Theater Tickets",
@@ -134,7 +146,8 @@ exports.seed = function(knex, Promise){
           "maxAge": 100,
           "minRelationshipLength": 1,
           "maxRelationshipLength": 50,
-          "relationshipType": "Any"
+          "relationshipType": "Any",
+          price: 3
         },{
           id: 14,
           idea: "Jewelry",
@@ -142,9 +155,10 @@ exports.seed = function(knex, Promise){
           gender: "Female",
           "minAge": 14,
           "maxAge": 100,
-          "minRelationshipLength": 1,
+          "minRelationshipLength": 0,
           "maxRelationshipLength": 50,
-          "relationshipType": "Romantic"
+          "relationshipType": "Romantic",
+          price: 0
         },{
           id: 15,
           idea: "Jewelry",
@@ -152,9 +166,10 @@ exports.seed = function(knex, Promise){
           gender: "Female",
           "minAge": 14,
           "maxAge": 100,
-          "minRelationshipLength": 1,
+          "minRelationshipLength": 0,
           "maxRelationshipLength": 50,
-          "relationshipType": "Girlfriend"
+          "relationshipType": "Girlfriend",
+          price: 0
         },{
           id: 16,
           idea: "Flowers",
@@ -162,9 +177,10 @@ exports.seed = function(knex, Promise){
           gender: "Any",
           "minAge": 20,
           "maxAge": 100,
-          "minRelationshipLength": 1,
+          "minRelationshipLength": 0,
           "maxRelationshipLength": 50,
-          "relationshipType": "Any"
+          "relationshipType": "Any",
+          price: 1
         },{
           id: 17,
           idea: "Chocolates",
@@ -172,9 +188,10 @@ exports.seed = function(knex, Promise){
           gender: "Any",
           "minAge": 20,
           "maxAge": 100,
-          "minRelationshipLength": 1,
+          "minRelationshipLength": 0,
           "maxRelationshipLength": 50,
-          "relationshipType": "Any"
+          "relationshipType": "Any",
+          price: 1
         },{
           id: 18,
           idea: "Jewelry",
@@ -182,9 +199,10 @@ exports.seed = function(knex, Promise){
           gender: "Female",
           "minAge": 14,
           "maxAge": 100,
-          "minRelationshipLength": 1,
+          "minRelationshipLength": 0,
           "maxRelationshipLength": 50,
-          "relationshipType": "Wife"
+          "relationshipType": "Wife",
+          price: 0
         },{
           id: 19,
           idea: "Jewelry",
@@ -192,9 +210,10 @@ exports.seed = function(knex, Promise){
           gender: "Female",
           "minAge": 20,
           "maxAge": 100,
-          "minRelationshipLength": 1,
+          "minRelationshipLength": 0,
           "maxRelationshipLength": 50,
-          "relationshipType": "Any"
+          "relationshipType": "Any",
+          price: 0
         },{
           id: 20,
           idea: "Attend A Yoga Class With Her",
@@ -202,9 +221,10 @@ exports.seed = function(knex, Promise){
           gender: "Female",
           "minAge": 20,
           "maxAge": 100,
-          "minRelationshipLength": 1,
+          "minRelationshipLength": 0,
           "maxRelationshipLength": 50,
-          "relationshipType": "Any"
+          "relationshipType": "Any",
+          price: 1
         },{
           id: 21,
           idea: "Take A Hike With Her",
@@ -212,13 +232,58 @@ exports.seed = function(knex, Promise){
           gender: "Female",
           "minAge": 20,
           "maxAge": 100,
-          "minRelationshipLength": 1,
+          "minRelationshipLength": 0,
           "maxRelationshipLength": 50,
-          "relationshipType": "Any"
+          "relationshipType": "Any",
+          price: 1
+        },{
+          id: 22,
+          idea: "Car",
+          occasion: "Any",
+          gender: "Any",
+          "minAge": 16,
+          "maxAge": 100,
+          "minRelationshipLength": 0,
+          "maxRelationshipLength": 50,
+          "relationshipType": "Any",
+          price: 4
+        },{
+          id: 23,
+          idea: "Boat",
+          occasion: "Any",
+          gender: "Any",
+          "minAge": 21,
+          "maxAge": 100,
+          "minRelationshipLength": 0,
+          "maxRelationshipLength": 50,
+          "relationshipType": "Any",
+          price: 4
+        },{
+          id: 24,
+          idea: "Vacation",
+          occasion: "Any",
+          gender: "Any",
+          "minAge": 12,
+          "maxAge": 100,
+          "minRelationshipLength": 0,
+          "maxRelationshipLength": 50,
+          "relationshipType": "Any",
+          price: 4
+        },{
+          id: 25,
+          idea: "Property",
+          occasion: "Any",
+          gender: "Any",
+          "minAge": 18,
+          "maxAge": 100,
+          "minRelationshipLength": 0,
+          "maxRelationshipLength": 50,
+          "relationshipType": "Any",
+          price: 4
         }
       ])
     })
     .then(() => {
-      return knex.raw("ALTER SEQUENCE ideas_id_seq RESTART WITH 4")
+      return knex.raw("ALTER SEQUENCE ideas_id_seq RESTART WITH 22")
     })
 }

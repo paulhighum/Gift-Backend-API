@@ -9,6 +9,7 @@ exports.up = function(knex, Promise){
     table.integer("minRelationshipLength")
     table.integer("maxRelationshipLength")
     table.text("relationshipType")
+    table.integer("price")
   })
 }
 
