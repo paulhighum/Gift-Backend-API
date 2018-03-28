@@ -213,7 +213,7 @@ exports.seed = function(knex, Promise){
           "minRelationshipLength": 0,
           "maxRelationshipLength": 50,
           "relationshipType": "Any",
-          price: 0
+          price: 3
         },{
           id: 20,
           idea: "Attend A Yoga Class With Her",
