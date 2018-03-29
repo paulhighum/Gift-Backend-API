@@ -296,7 +296,7 @@ exports.seed = function(knex, Promise){
           idea: "Water Guns",
           occasion: "Any",
           gender: "Any",
-          "minAge": 5,
+          "minAge": 4,
           "maxAge": 13,
           "minRelationshipLength": 0,
           "maxRelationshipLength": 50,
