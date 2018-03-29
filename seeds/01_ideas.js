@@ -280,6 +280,39 @@ exports.seed = function(knex, Promise){
           "maxRelationshipLength": 50,
           "relationshipType": "Any",
           price: 4
+        },{
+          id: 26,
+          idea: "Toys",
+          occasion: "Any",
+          gender: "Any",
+          "minAge": 0,
+          "maxAge": 13,
+          "minRelationshipLength": 0,
+          "maxRelationshipLength": 50,
+          "relationshipType": "Any",
+          price: 1
+        },{
+          id: 27,
+          idea: "Water Guns",
+          occasion: "Any",
+          gender: "Any",
+          "minAge": 5,
+          "maxAge": 13,
+          "minRelationshipLength": 0,
+          "maxRelationshipLength": 50,
+          "relationshipType": "Any",
+          price: 1
+        },{
+          id: 28,
+          idea: "Bubble Wand",
+          occasion: "Any",
+          gender: "Any",
+          "minAge": 3,
+          "maxAge": 10,
+          "minRelationshipLength": 0,
+          "maxRelationshipLength": 50,
+          "relationshipType": "Any",
+          price: 1
         }
       ])
     })
